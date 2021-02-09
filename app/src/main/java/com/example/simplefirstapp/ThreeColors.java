@@ -50,7 +50,7 @@ public class ThreeColors extends AppCompatActivity {
         generateRandomColorButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                textViewWoW.clearComposingText();
+                textViewWoW.setText("");
                 int random;
                 for(int i = 0;i < 3; ++i ){
                     random = (int)(Math.random() * listOfColors.size());
